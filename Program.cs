@@ -7,6 +7,8 @@
 // Примеры: 
 // ["hello", "2", "world", ":-)"] -> ["2", ":-)"]
 
+
+// Method to extract element with length less or equal 3 to new array
 string[] GetArrayThreeOrLessSymbols(string[] array)
 {
     string[] resultArray = new string[0];
@@ -25,6 +27,7 @@ string[] GetArrayThreeOrLessSymbols(string[] array)
     return resultArray;
 }
 
+// Method for print array to console
 void PrintArrayToConsole(string[] array)
 {
     Console.Write("[ ");
